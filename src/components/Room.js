@@ -5,7 +5,7 @@ import ChatBox from './ChatBox';
 import io from 'socket.io-client';
 import '../styles/Room.css';
 
-const socket = io('http://localhost:3001');
+const socket = io('https://partyflix-backend.onrender.com');
 
 const Room = () => {
   const { roomId } = useParams();
